@@ -1,4 +1,4 @@
-FROM node:22.10.0-slim
+FROM node:22.12.0-alpine3.19
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
